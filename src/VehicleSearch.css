@@ -1,0 +1,20 @@
+.vehicle-search {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 0.7rem 1.2rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  gap: 0.7rem;
+}
+.vehicle-search input {
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  margin-left: 0.7rem;
+  outline: none;
+  width: 100%;
+  color: #333;
+}

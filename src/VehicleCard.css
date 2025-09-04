@@ -1,0 +1,65 @@
+.vehicle-card {
+  background: #f3f3f3;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  margin: 1rem;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+.vehicle-img {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+.vehicle-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.vehicle-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+.vehicle-vin,
+.vehicle-plate {
+  font-weight: 500;
+  color: #35513b;
+}
+.vehicle-status {
+  color: #bfa100;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.vehicle-desc {
+  font-size: 0.97rem;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+.vehicle-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.vehicle-actions button {
+  padding: 0.4rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid #35513b;
+  background: #fff;
+  color: #35513b;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.vehicle-actions button:hover {
+  background: #35513b;
+  color: #fff;
+}

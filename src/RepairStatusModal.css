@@ -1,0 +1,73 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(60, 60, 60, 0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: #fff;
+  border-radius: 18px;
+  padding: 2rem 2.5rem;
+  min-width: 340px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: stretch;
+}
+.modal h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #222;
+}
+.modal label {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  display: block;
+  color: #333;
+}
+.modal input[type="text"],
+.modal input[type="date"],
+.modal input[type="time"] {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border-radius: 7px;
+  border: 1px solid #bbb;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.modal-actions button {
+  padding: 0.5rem 1.3rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  background: #46644a;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.modal-actions button:first-child {
+  background: #f4f4f4;
+  color: #333;
+  border: 1px solid #bbb;
+}
+.modal-actions button:hover {
+  background: #35513b;
+  color: #fff;
+}
+.modal input[type="radio"] {
+  margin-right: 0.5rem;
+}
