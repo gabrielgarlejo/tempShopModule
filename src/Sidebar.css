@@ -1,5 +1,5 @@
 .sidebar {
-  background: #35513b;
+  background: #2d5a3d;
   color: #fff;
   width: 240px;
   min-height: 100vh;
@@ -11,7 +11,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 1rem;
-  background: #46644a;
+  background: #2d5a3d;
 }
 .sidebar-menu {
   margin-top: 2rem;
