@@ -1,27 +1,44 @@
+/* Shop Module Sidebar (matched to Driver Module) */
 .sidebar {
-  background: #2d5a3d;
+  position: fixed;
+  left: 0;
+  top: 0; /* Start at the very top */
+  bottom: 0;
+  width: 250px; /* Match driver module */
+  background: #25472f; /* Match driver module */
   color: #fff;
-  width: 240px;
-  min-height: 100vh;
-  padding: 0;
+  font-family: "Montserrat", sans-serif; /* Match driver module */
+  z-index: 200; /* Same as driver module */
   display: flex;
   flex-direction: column;
 }
+
 .sidebar-header {
   font-size: 2rem;
+  padding: 20px 16px; /* Match driver module */
   font-weight: bold;
-  padding: 1rem;
-  background: #2d5a3d;
+  letter-spacing: 2px; /* Match driver module */
 }
+
 .sidebar-menu {
   margin-top: 2rem;
 }
+
 .sidebar-item {
-  padding: 1rem 2rem;
-  cursor: pointer;
+  padding: 18px 16px; /* Match driver module */
   font-size: 1.2rem;
+  display: flex; /* Match driver module */
+  align-items: center; /* Match driver module */
+  cursor: pointer;
+  transition: background 0.2s; /* Match driver module */
 }
+
 .sidebar-item.active,
 .sidebar-item:hover {
-  background: #233524;
+  background: #3b5d3a; /* Match driver module */
+}
+
+.icon {
+  margin-right: 12px; /* Match driver module */
+  font-size: 1.3rem; /* Match driver module */
 }

@@ -1,8 +1,12 @@
 /* Layout for the whole app */
+body,
+#root,
 .shop-module-root {
   display: flex;
   min-height: 100vh;
   background: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
 
 /* Sidebar stays fixed on the left */
@@ -13,7 +17,7 @@
   bottom: 0;
   width: 250px;
   z-index: 10;
-  background: #2d5a3d;
+  background: #25472f;
   color: white;
 }
 
@@ -31,7 +35,7 @@
 /* Header bar */
 .shop-header {
   width: 100%;
-  background: #444;
+  background: #222;
   color: #fff;
   display: flex;
   align-items: center;
